@@ -9,15 +9,16 @@ namespace AutofacDemo.Controllers
 {
     public class HomeController : Controller
     {
-        private IUserManager _User;
-        public HomeController(IUserManager user)
+        public IUserManager User { set; get; }
+        public HomeController()
         {
-            _User = user;
+           // _User = user;
         }
 
         public IActionResult Index()
         {
-            _User.Register("hello");
+            User.Register("hello");
+
 
             return View();
         }

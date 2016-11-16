@@ -13,6 +13,9 @@ using Autofac.Extensions.DependencyInjection;
 using Autofac.Extras.DynamicProxy.Core;
 using AutofacDemo.Codes;
 using Castle.DynamicProxy;
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace AutofacDemo
 {
@@ -23,10 +26,22 @@ namespace AutofacDemo
         
         private IServiceProvider RegisterAutofac(IServiceCollection services)
         {
+            var assembly = this.GetType().GetTypeInfo().Assembly;
             var builder = new ContainerBuilder();
+            var manager = new ApplicationPartManager();
+
+            manager.ApplicationParts.Add(new AssemblyPart(assembly));
+            manager.FeatureProviders.Add(new ControllerFeatureProvider());
+
+            var feature = new ControllerFeature();
+
+            manager.PopulateFeature(feature);
+
+            builder.RegisterType<ApplicationPartManager>().AsSelf().SingleInstance();
+            builder.RegisterTypes(feature.Controllers.Select(ti => ti.AsType()).ToArray()).PropertiesAutowired();
             builder.Populate(services);
 
-            var assembly = this.GetType().GetTypeInfo().Assembly;
+
 
             builder.RegisterType<AopInterceptor>();
 
@@ -60,6 +75,7 @@ namespace AutofacDemo
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
+            services.Replace(ServiceDescriptor.Transient<IControllerActivator, ServiceBasedControllerActivator>());
 
             services.AddMvc();
 

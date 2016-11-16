@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\bin\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.dll"
+"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\bin\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.dll"
 -r:"C:\Users\zhanglei13\.nuget\packages\Autofac\4.1.0\lib\netstandard1.1\Autofac.dll"
 -r:"C:\Users\zhanglei13\.nuget\packages\Castle.Core\4.0.0-beta001\lib\netstandard1.3\Castle.Core.dll"
 -r:"C:\Users\zhanglei13\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -68,8 +68,8 @@
 -r:"C:\Users\zhanglei13\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"C:\Users\zhanglei13\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll"
 -r:"C:\Users\zhanglei13\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll"
--resource:"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources",Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources
-"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\InterceptAttribute.cs"
-"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensions.cs"
-"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensionsResources.Designer.cs"
-"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\Properties\AssemblyInfo.cs"
+-resource:"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources",Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources
+"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\InterceptAttribute.cs"
+"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensions.cs"
+"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensionsResources.Designer.cs"
+"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\Properties\AssemblyInfo.cs"

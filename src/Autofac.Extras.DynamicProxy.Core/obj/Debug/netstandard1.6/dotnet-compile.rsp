@@ -1,5 +1,5 @@
---temp-output:F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\
---out:F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\bin\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.dll
+--temp-output:F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\
+--out:F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\bin\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -70,8 +70,8 @@
 --reference:C:\Users\zhanglei13\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\zhanglei13\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
 --reference:C:\Users\zhanglei13\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources",Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources
-F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\InterceptAttribute.cs
-F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensions.cs
-F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensionsResources.Designer.cs
-F:\self\AutofacDemo\src\Autofac.Extras.DynamicProxy.Core\Properties\AssemblyInfo.cs
+--resource:"F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\obj\Debug\netstandard1.6\Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources",Autofac.Extras.DynamicProxy.Core.RegistrationExtensionsResources.resources
+F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\InterceptAttribute.cs
+F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensions.cs
+F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\RegistrationExtensionsResources.Designer.cs
+F:\self\AutofacDemo\AspNetCore.AutofacCastle.Demo\src\Autofac.Extras.DynamicProxy.Core\Properties\AssemblyInfo.cs
